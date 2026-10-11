@@ -37,12 +37,9 @@ var CONFIG = {
 
   /* ---------- your links (as many as you want) ---------- */
   links: [
-    { title: "EVENT HORIZON — dive into a black hole", url: "https://amanxdev0.github.io/event-horizon/", icon: "🕳️", badge: "NEW", highlight: true },
-    { title: "HELIOS — voyage across the solar system", url: "https://amanxdev0.github.io/helios/", icon: "☀️" },
-    { title: "ABYSS — descend to Challenger Deep", url: "https://amanxdev0.github.io/abyss/", icon: "🌊" },
-    { title: "scrollfilm.js — open-source film engine", url: "https://github.com/amanxdev0/scrollfilm", icon: "🎬" },
+    { title: "YouTube — Stream Pixel", url: "https://www.youtube.com/@stream-pixel", icon: "▶️", highlight: true },
     { title: "GitHub — @amanxdev0", url: "https://github.com/amanxdev0", icon: "💻" },
-    { title: "Stream Pixel — YouTube", url: "https://www.youtube.com/@stream-pixel", icon: "▶️" },
+    { title: "Discord — join me", url: "https://discord.gg/REPLACE-ME", icon: "💬" },
 
     /* Scheduled link example — appears only between from and to:
     { title: "🚀 Big launch — live now!", url: "https://example.com",
@@ -51,9 +48,9 @@ var CONFIG = {
 
   /* ---------- social icons row ---------- */
   socials: [
-    { name: "GitHub",   url: "https://github.com/amanxdev0",       icon: "🐙" },
     { name: "YouTube",  url: "https://www.youtube.com/@stream-pixel", icon: "▶️" },
-    { name: "CodePen",  url: "https://codepen.io/amanxdev0",       icon: "🖊️" },
+    { name: "GitHub",   url: "https://github.com/amanxdev0",         icon: "🐙" },
+    { name: "Discord",  url: "https://discord.gg/REPLACE-ME",        icon: "💬" },
   ],
 
   /* ---------- features (true/false) ---------- */
