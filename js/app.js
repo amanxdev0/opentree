@@ -2,7 +2,7 @@
 (function () {
   'use strict';
 
-  var cfg = window.CONFIG || {};
+  var cfg = window.CONFIG || (typeof CONFIG !== 'undefined' ? CONFIG : {}) || {};
   var $ = function (id) { return document.getElementById(id); };
 
   /* ---------------- theme ---------------- */

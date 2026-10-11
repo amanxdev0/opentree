@@ -9,7 +9,7 @@
       and it will only appear between those dates. Delete the line = always on.
    ============================================================================ */
 
-const CONFIG = {
+var CONFIG = {
 
   /* ---------- who is this page for ---------- */
   profile: {
