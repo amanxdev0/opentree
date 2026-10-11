@@ -4,7 +4,8 @@
    HOW TO USE:
    1. Change the profile, theme, links and socials below to yours.
    2. Save, push to GitHub, enable Pages. Done — your page is live.
-   3. Icons: just use any emoji (🔗) or paste an image URL ("https://...").
+   3. Icons: use a brand key ("youtube", "discord"), any emoji (🔗),
+      or paste an image URL ("https://...").
    4. Schedule a link: add  schedule: { from: "2026-12-01", to: "2026-12-31" }
       and it will only appear between those dates. Delete the line = always on.
    ============================================================================ */
@@ -37,8 +38,8 @@ var CONFIG = {
 
   /* ---------- your links (as many as you want) ---------- */
   links: [
-    { title: "YouTube — Stream Pixel", url: "https://www.youtube.com/@stream-pixel", icon: "▶️", highlight: true },
-    { title: "Discord — join me", url: "https://discord.gg/REPLACE-ME", icon: "💬" },
+    { title: "YouTube — Stream Pixel", url: "https://www.youtube.com/@stream-pixel", icon: "youtube", highlight: true },
+    { title: "Discord — join me", url: "https://discord.gg/GQts8Fmdre", icon: "discord" },
 
     /* Scheduled link example — appears only between from and to:
     { title: "🚀 Big launch — live now!", url: "https://example.com",
@@ -47,8 +48,8 @@ var CONFIG = {
 
   /* ---------- social icons row ---------- */
   socials: [
-    { name: "YouTube",  url: "https://www.youtube.com/@stream-pixel", icon: "▶️" },
-    { name: "Discord",  url: "https://discord.gg/REPLACE-ME",        icon: "💬" },
+    { name: "YouTube",  url: "https://www.youtube.com/@stream-pixel", icon: "youtube" },
+    { name: "Discord",  url: "https://discord.gg/GQts8Fmdre",        icon: "discord" },
   ],
 
   /* ---------- features (true/false) ---------- */

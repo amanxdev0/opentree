@@ -208,6 +208,9 @@ body.has-bgimg {
 
 .link-icon { font-size: 24px; flex-shrink: 0; width: 32px; text-align: center; }
 .link-icon img { width: 32px; height: 32px; border-radius: 8px; object-fit: cover; }
+.brand-icon { width: 26px; height: 26px; vertical-align: -5px; }
+.social .brand-icon { width: 22px; height: 22px; vertical-align: 0; }
+.emoji-icon { font-size: 24px; }
 
 .link-title { flex: 1; font-size: 15px; font-weight: 600; line-height: 1.4; }
 
