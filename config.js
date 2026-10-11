@@ -13,9 +13,9 @@ var CONFIG = {
 
   /* ---------- who is this page for ---------- */
   profile: {
-    name: "Aman Singh",
+    name: "SATURDAY",
     bio: "Creative WebGL developer · MERN stack · AI automation",
-    avatar: "https://github.com/amanxdev0.png", // your photo, or a https:// image link
+    avatar: "https://github.com/amanxdev0.png", // your photo — see below for how to change it
     verified: true,                             // little ✓ badge next to the name
   },
 
@@ -38,7 +38,6 @@ var CONFIG = {
   /* ---------- your links (as many as you want) ---------- */
   links: [
     { title: "YouTube — Stream Pixel", url: "https://www.youtube.com/@stream-pixel", icon: "▶️", highlight: true },
-    { title: "GitHub — @amanxdev0", url: "https://github.com/amanxdev0", icon: "💻" },
     { title: "Discord — join me", url: "https://discord.gg/REPLACE-ME", icon: "💬" },
 
     /* Scheduled link example — appears only between from and to:
@@ -49,7 +48,6 @@ var CONFIG = {
   /* ---------- social icons row ---------- */
   socials: [
     { name: "YouTube",  url: "https://www.youtube.com/@stream-pixel", icon: "▶️" },
-    { name: "GitHub",   url: "https://github.com/amanxdev0",         icon: "🐙" },
     { name: "Discord",  url: "https://discord.gg/REPLACE-ME",        icon: "💬" },
   ],
 
@@ -63,8 +61,8 @@ var CONFIG = {
 
   /* ---------- browser tab + link previews ---------- */
   seo: {
-    title: "Aman Singh — Links",
-    description: "All my projects, profiles and launches in one place. Free & open source.",
+    title: "SATURDAY — Links",
+    description: "All my links in one place. Free & open source.",
   },
 
   /* Optional: paste a Plausible/Umami script URL here for real analytics.
