@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="midnight" data-shape="rounded">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Aman Singh — Links</title>
+<meta name="description" content="All my projects, profiles and launches in one place. Free & open source." />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Aman Singh — Links" />
+<meta property="og:description" content="All my projects, profiles and launches in one place." />
+<meta property="og:image" content="https://github.com/amanxdev0.png" />
+<meta name="theme-color" content="#0b0b12" />
+<link rel="icon" href="https://github.com/amanxdev0.png" />
+<link rel="stylesheet" href="css/style.css?v=1" />
+</head>
+<body>
+
+<main class="page">
+
+  <header class="profile">
+    <img class="avatar" id="avatar" src="https://github.com/amanxdev0.png" alt="Profile photo" />
+    <h1 class="name"><span id="name">Aman Singh</span><span class="verified" id="verified" title="Verified">✓</span></h1>
+    <p class="bio" id="bio"></p>
+    <div class="socials" id="socials"></div>
+  </header>
+
+  <div class="toolbar">
+    <input class="search" id="search" type="search" placeholder="Search links…" aria-label="Search links" hidden />
+    <div class="actions">
+      <button class="icon-btn" id="shareBtn" title="Share this page" hidden>↗</button>
+      <button class="icon-btn" id="qrBtn" title="Show QR code" hidden>▦</button>
+    </div>
+  </div>
+
+  <div class="qr-panel" id="qrPanel" hidden>
+    <img id="qrImg" alt="QR code of this page" />
+    <p>Scan to open this page</p>
+  </div>
+
+  <nav class="links" id="links" aria-label="Links"></nav>
+  <p class="empty" id="empty" hidden>No links match your search.</p>
+
+  <footer class="footer">
+    <p>Made with <a href="https://github.com/amanxdev0/opentree"><b>OpenTree</b></a> — free &amp; open source, no ads, no paywall.</p>
+  </footer>
+
+</main>
+
+<div class="toast" id="toast" role="status"></div>
+
+<script src="config.js?v=1"></script>
+<script src="js/app.js?v=1"></script>
+</body>
+</html>
