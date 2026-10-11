@@ -16,7 +16,7 @@ var CONFIG = {
   profile: {
     name: "SATURDAY",
     bio: "Creative WebGL developer · MERN stack · AI automation",
-    avatar: "https://github.com/amanxdev0.png", // your photo — see below for how to change it
+    avatar: "https://i.postimg.cc/PqpPwr6y/Saturday.jpg", // your photo — see below for how to change it
     verified: true,                             // little ✓ badge next to the name
   },
 
